@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css기초개념</title>
+    <style>
+        h1{color:red;background:skyblue;}
+        h1{color:blue;color:orange;}
+        p{color:green;}
+        #a{color:aqua;}
+        .des{color:blueviolet;}
+        .bb{background:lightgreen;}
+    </style>
+</head>
+<body>
+    <h1>css3</h1>
+    <p>css는 html파일에 스타일을 입력해주는 언어</p>
+    <hr>
+    <h2>기초문법</h2>
+    <p>css는 처음부터 끝까지 태그를 선택하여 스타일을 지정하는 문법으로 구성되어있다.</p>
+    <p>선택자{css속성:css속성값;}</p>
+    <p>선택자로 사용되는 예(태그명,클래스명,아이디명)</p>
+
+    <h2>특징</h2>
+    <hr>
+    
+    <h3>위에서 아래로 해석</h3>
+    <p id="a" class="des">css파일도 브라우저가 해석을 하며 그리고 위에서 아래로 왼쪽에서 오른쪽으로 해석한다. 그리고 해석된 결과를 스타일로 표현한다.</p>
+    <p class="des" id="ab">새롭게 선택자를 구성하여 다른 스타일을 적용했을 때 언급하지 않은 스타일은 기존에 적용되었던 스타일이 그대로 유지가 된다.</p>
+
+    <h3>태그명 또는 클래스명 또는 아이디명으로 선택할 수 있다.</h3>
+    <p>태그명으로 선택하려면 선택자부분에 태그명을 적어줌</p>
+    <p>아이디명으로 태그를 선택하려면 접근자#을 사용함</p>
+    <p>클래스명으로 태그를 선택하려면 접근자.을 사용함</p>
+    <p class="des aa bb">아이디는 중복사용할 수 없다. 클래스는 중복사용이 가능하다.</p>
+</body>
+</html>

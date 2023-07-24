@@ -1,0 +1,9 @@
+
+p.p1.p2.p33333 .s1{color:red;}
+p.p1.p2 .s1{color:green;}
+p.p1 strong.s1{color:blue;}
+p.p1 .s1{color:red;}
+.p1 .s1{color:blue;}
+.s1{color:red;}
+p strong{color:blue;}
+strong{color:red;}
